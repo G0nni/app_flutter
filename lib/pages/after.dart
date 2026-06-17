@@ -63,7 +63,7 @@ class _AfterWidgetState extends State<AfterWidget> {
   }
 
   Future<void> _ouvrirLien() async {
-    final url = Uri.parse('https://docs.google.com/document/d/REMPLACE_MOI');
+    final url = Uri.parse('https://forms.gle/Wd7ri5TfF4Th4CDz5');
     if (await canLaunchUrl(url)) {
       await launchUrl(url, mode: LaunchMode.externalApplication);
     }
